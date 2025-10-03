@@ -57,7 +57,8 @@ h4{
     color: black;
 }
 .bttn button:hover {
-    background-color: darkorange;
+    background-color: orange;
+    cursor: pointer;
 }
 
 .separator {
@@ -66,32 +67,6 @@ h4{
     width: 100%;
 }
 
-.hero-section {
-    background-image: url('https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large_2x.jpg');
-    height: 700px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.hero-section h1 {
-    text-align: center;
-    color: white;
-    padding-top: 100px;
-    font-size: 60px;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.hero-section p {
-    text-align: center;
-    color: white;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
 
 .iphone-air-section {
     background-image: url('https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_mediumtall_2x.jpg');
