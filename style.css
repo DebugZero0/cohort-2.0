@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Remixicon';
+    src: url(./sf-pro-text_medium.woff2);
+}
+@font-face {
+    font-family: 'text';
+    src: url(./sf-pro-text_regular.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'text';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 8px 0;
+    font-size: 15px;
+}
+h4{
+    font-weight: 100; 
+}
+.video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.text{
+    position: absolute;
+    bottom: 60px; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.video{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.bttn button{ 
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+}
+.bttn button:hover {
+    background-color: darkorange;
+}
