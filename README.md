@@ -1,1 +1,2 @@
-working link: https://debugzero0.github.io/landing-page/
+<h1> This is a repository for all assignments of Cohort 2.0 </h1>
+All assigmnents are updated and with live working links 
