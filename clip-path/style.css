@@ -1,0 +1,484 @@
+@font-face {
+    font-family: hell;
+    src: url(./Helvetica.woff);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 160%;
+    color:white;
+    font-family: hell;
+}
+
+.main1{
+    height: 50%; 
+    width: 100%;
+    background: #101010;
+    color:white;
+    font-family: hell;
+}
+
+.nav{
+    padding: 20px;
+    height: 12%;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftnav{
+    font-size: 19px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.leftnav h3{
+    font-weight: 500;
+}
+
+.centernav,.rightnav{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.centernav{
+    background: rgb(31, 31, 31);
+    padding: 15px 35px;
+    gap: 50px;
+    border-radius: 22px;
+    /* margin-left: 80px;    */
+    box-shadow: 5px 2px 5px #101010;
+   
+}
+
+.centernav h4{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.oneh4:hover{
+    color: #D5F803;
+}
+
+.rightnav{
+    gap: 20px;
+}
+
+
+.rightnav div{
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #D5F803;
+    border-radius: 20px;
+    font-size: 16px;
+}
+i{
+    scale: 1.3;
+}
+
+i:hover{
+    scale: 1.5;
+}
+
+.connect:hover{
+    background-color: #D5F803;
+    color: #101010;
+    border-color: #000;
+}
+
+
+.hero{
+    /* height: 0%; */
+    width: 100%;
+    text-align: center;
+    position: relative;
+    
+}
+
+.herotext{
+ display: flex;
+    flex-direction: column;
+}
+
+.herotextone h1{
+    font-weight: 100;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.herotextone h1 img{
+    height: 45px;
+}
+
+.herotexttwo h1{
+    font-size: 70px;
+}
+
+.hero>img{
+    margin-top: 2%;
+    height: 510px;
+     /* width: 600px; */
+    /* object-fit: cover;  */
+}
+
+.lefthero{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: red; */
+    height: 250px;
+    width: 250px;
+    top: 45%;
+    left: 13%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+     gap: 10px;
+}
+
+.lefthero p {
+    width: 60%;
+    font-size: 12px;
+}
+
+.leftmain{
+   align-items: center;
+    display: flex;
+    justify-content: center;
+    /* background: blue; */
+    height:    180px;
+    width: 180px;
+    box-shadow: -1px -1px 1px #D5F803;
+    border-radius: 50%;
+    background: rgb(22, 22, 22);
+}
+
+.uplefthero img{
+    height: 120px;
+}
+
+.uplefthero{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color:rgb(41, 40, 40) ;
+}
+
+.righthero{
+    position: absolute;
+    top: 35%;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.righthero .heroone{
+    height: 2px;
+    width: 100px;
+    background-color: #D5F803;
+}
+
+.righthero h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.righthero span{
+    color: #D5F803;
+}
+
+.righthero p{
+    color: #D5F803;
+}
+
+.rightheroimg img{
+    height: 100px;
+}
+
+.main1 .arrowdiv{
+    position: absolute;
+    top:20%;
+    left: 20%;
+}
+
+.arrowdiv img{
+        height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.main2{
+    background: #000;
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.upper{
+  
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+}
+
+.upper h4{
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #D5F803;
+}
+
+.upper h3{
+    font-size: 38px;
+}
+
+.uppercenter{   
+    text-align: left;
+    padding-left: 5%;
+    width: 28%;
+}
+
+
+.upperright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.leftarrow{
+    padding: 25px 30px;
+    background: #000;
+    color: white;
+    border-radius: 18px;
+    font-size: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.leftarrow:hover{
+     background: white;
+    color: black;
+        transition: all ease-in ;
+}
+
+.rightarrow:hover{
+    background: #000;
+    color: white;
+    border: 1px solid white;
+    transition: all ease-in ;
+}
+
+.rightarrow{
+    padding: 25px 30px;
+    background: white;
+    color: black;
+    border-radius: 18px;
+    font-size: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 3%;
+}
+
+.card{
+    width: 320px;
+    height: 420px;
+    border-radius: 20px;
+    background: rgb(31, 31, 31);
+    position: relative;
+    box-shadow: 10px 5px 20px rgb(255, 255, 255,0.083);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.minicard1{
+    background: #7D00F2;
+    border-radius: 20px ;
+    height: 370px;
+    width: 270px;
+    clip-path: polygon(33% 0, 0 0,0 90%, 45% 90%, 45% 100%, 100% 100%, 100% 85%, 100% 13%, 58% 13%);
+}
+
+.minicard2{
+    background: #D5F803;
+    border-radius: 20px ;
+    height: 370px;
+    width: 270px;
+    clip-path: polygon(33% 0, 0 0,0 90%, 45% 90%, 45% 100%, 100% 100%, 100% 85%, 100% 13%, 58% 13%);
+}
+
+.minicard3{
+    background: #FF5C1F;
+    border-radius: 20px ;
+    height: 370px;
+    width: 270px;
+    clip-path: polygon(33% 0, 0 0,0 90%, 45% 90%, 45% 100%, 100% 100%, 100% 85%, 100% 13%, 58% 13%);
+}
+
+
+.text1 h5{
+    color: gray;
+
+}
+
+.text1{
+    position: absolute;
+    top: 5%;
+    right: 8% ;
+}
+
+.diamond1{
+    position: absolute;
+    bottom: 8%;
+    left: 13%;
+}
+
+.diamond1 h1{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.minicard1 img{
+    position: absolute;
+    bottom: 6%;
+    left: 0%;
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+}
+.minicard2 img{
+    position: absolute;
+    bottom: 6%;
+    left: 0%;
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+}
+.minicard3 img{
+    position: absolute;
+    bottom: 6%;
+    left: 0%;
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+}
+
+.buttondiv1{
+    padding: 10px 20px;
+    /* width: 40 */
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 5px 3px 5px #7D00F2;
+    outline:1px solid #7D00F2;
+    text-align: center;
+    border-radius: 5px;
+}
+.buttondiv2{
+    padding: 10px 20px;
+    /* width: 40 */
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 5px 3px 5px #D5F803;
+    border:1px solid #D5F803;
+    text-align: center;
+    border-radius: 5px;
+}
+.buttondiv3{
+    padding: 10px 20px;
+    /* width: 40 */
+    border: none;
+    text-transform: uppercase;
+    outline:1px solid #FF5C1F;
+    box-shadow: 5px 3px 5px #FF5C1F;
+    text-align: center;
+    border-radius: 5px;
+}
+.buttondiv1:hover{
+    background-color: #7D00F2;
+    box-shadow: none;
+}
+.buttondiv2:hover{
+    box-shadow: none;
+    background-color: #D5F803;
+}
+.buttondiv3:hover{
+    box-shadow: none;
+    background-color: #FF5C1F;
+}
+
+.cardbox{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.limited1{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: inset(5px 5px 10px round 9px 0);
+    top: 100px;
+    left:-15px;
+    padding: 20px 10px;
+    background: #FF5C1F;
+}
+
+.limited2{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: inset(5px 5px 10px round 9px 0);
+    top: 100px;
+    left:-15px;
+    padding: 20px 10px;
+    background: #7D00F2;
+}
+
+.limited3{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: inset(5px 5px 10px round 9px 0);
+    top: 100px;
+    left:-15px;
+    padding: 20px 10px;
+    color: #000;
+    background: #D5F803;
+}
