@@ -170,3 +170,14 @@ li:hover {
         top: 40px;
     }
 }
+
+@media (max-width:300px) {
+    .cards{
+        position: relative;
+        top: 40px;
+        font-size: 5vmin ;
+    }
+    .cards .box h2{
+        white-space: nowrap;
+    }
+}
