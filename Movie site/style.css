@@ -168,6 +168,9 @@ li:hover {
         position: relative;
         top: 40px;
     }
+    .cards .box h2{
+        white-space: nowrap;
+    }
 
 }
 
