@@ -151,8 +151,8 @@ button {
     border: 0.5px solid gray;
 }
 
-.box:hover {
-    transition: all .5s ease-in-out 10ms;
+.cards .box:hover {
+    transition: all .5s ease-in-out;
     transform: scale(1.1);
 }
 
@@ -167,20 +167,11 @@ li:hover {
     .cards{
         position: relative;
         top: 40px;
+        font-size: 4vmin;
     }
     .cards .box h2{
         white-space: nowrap;
+        font-size: 1em ;
     }
 
-}
-
-@media (max-width:300px) {
-    .cards{
-        position: relative;
-        top: 40px;
-        font-size: 5vmin ;
-    }
-    .cards .box h2{
-        white-space: nowrap;
-    }
 }
