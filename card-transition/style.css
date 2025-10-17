@@ -26,7 +26,7 @@ body {
     z-index: 1;
     overflow-x: auto;
     overflow-y: hidden;
-    height: 40%;
+    height: 43%;
     width: 100%;
     padding: 10px;
     display: flex;
@@ -81,7 +81,7 @@ body {
  }
  .cards-wrapper {
       display: flex;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       gap: 2rem;
       justify-content: center;
       padding: 2rem;
@@ -185,4 +185,12 @@ p{
 }
 .btm:hover .overlay{
     transform: translateY(-100%);
+}
+
+@media (max-width:400px){
+    .bottom{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
 }

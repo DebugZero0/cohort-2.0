@@ -167,7 +167,7 @@ li:hover {
     .cards{
         position: relative;
         top: 40px;
-        font-size: 4vmin;
+        font-size: 5vmin;
     }
     .cards .box h2{
         white-space: nowrap;
