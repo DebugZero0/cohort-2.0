@@ -276,7 +276,7 @@ h4{
     .text{
         width: 100vw;
         padding: 10px;
-        bottom: 0;
+        bottom: 0; 
     }
     .nav h4, .video video {
         display: none;
@@ -297,6 +297,13 @@ h4{
 
     .two-column-wrapper {
         flex-direction: column;
+    }
+
+    .video2 video {
+        overflow: hidden;
+        transform: rotate(0deg); 
+        width: 100vw; 
+        object-fit: contain;
     }
 
 }
