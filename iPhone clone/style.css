@@ -117,7 +117,7 @@ h4{
 .iphone-17-section {
     background-image: url('https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_mediumtall_2x.jpg');
     height: 750px;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -304,6 +304,17 @@ h4{
         transform: rotate(0deg); 
         width: 100vw; 
         object-fit: contain;
+    }
+
+    .iphone-air-section {
+        background-image: none;
+        height: 500px;
+
+    }
+    .iphone-17-section {
+        
+        height: 500px;
+
     }
 
 }
