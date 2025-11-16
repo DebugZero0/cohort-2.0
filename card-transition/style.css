@@ -187,10 +187,21 @@ p{
     transform: translateY(-100%);
 }
 
-@media (max-width:400px){
+@media (max-width:450px){
     .bottom{
         flex-direction: column;
         height: auto;
         padding: 20px 0;
     }
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #11121a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: medium;
 }
